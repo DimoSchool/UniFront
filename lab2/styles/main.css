@@ -1,0 +1,122 @@
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; /* Помогает правильно считать размеры элементов с padding */
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1;
+  }
+
+  .main {
+    max-width: 1280px;
+    margin: 0 auto;
+  }
+  
+  .logo {
+    font-size: 54px;
+    text-decoration: none;
+    color: black;
+
+  }
+
+  .logo .blue-part {
+    color: #4bcaff;
+  }
+
+  nav {
+    background-color: #35444f;
+    display: flex;
+  }
+
+  nav div {
+    width: fit-content;
+    margin: 0 auto;
+    display: flex;
+  }
+
+  nav a {
+    color: white;
+    text-decoration: none;
+    padding: 26px 42px;
+    border-left: 1px solid rgba(128, 128, 128, 0);
+    border-right: 1px solid rgb(128, 128, 128, 0);
+  
+  }
+
+  nav a:hover {
+    background-color: #222f3a;
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+  }
+
+  main {
+    margin-top: 50px;
+  }
+
+  .column1 {
+    float: left;
+    width: 344px;
+    border: 1px solid black;
+  }
+
+  .column2 {
+    float: left;
+    width: 885px;
+    padding-left: 52px;
+    
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .image-holder {
+    padding: 75px;
+    text-align: center;
+    border: 1px solid black;
+  }
+
+  .sidebar li {
+    font-size: 19px;
+    padding: 28px;
+    padding-left: 43px;
+    color: #485863;
+    list-style-type: none;
+  }
+
+  .sidebar li:hover {
+    background-color: #dbdbdb;
+    color: black;
+    padding-left: 68px;
+  }
+  
+  .column2 p {
+    padding: 50px 30px;
+    font-size: 13px;
+  }
+
+  .bot-nav {
+    background-color: #b4b7ba;
+    font-size: 19px;
+    display: flex;
+
+    /* width: 100%; */
+  }
+
+  .bot-nav div {
+    display: flex;
+  }
+  
+
+  .bot-nav a {
+    text-decoration: none;
+    color: black;
+    padding: 26px 42px;
+  }
+
+  .bot-nav a:hover {
+    text-decoration: underline;
+    color: #3181a6;
+  }
+  
